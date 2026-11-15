@@ -4,9 +4,39 @@
 
 ---
 
-## ⚡ Features
+## 📸 Screenshots & Desk Interface
 
-- **Live Market Feed & Replay**:
+### 1. Strategy Screener & Real-Time Risk Analytics
+*Scan the entire F&O universe with automated quantitative screening, 8-gate institutional validation, ASCII payoff profiles, probability metrics (POP/POT/EV), and 1-click execution.*
+
+![QuantDesk Signals & Strategy Screener](docs/images/signals_screen.png)
+
+---
+
+### 2. Desk Overview & Greek Exposures
+*Real-time dashboard summarizing market regimes, portfolio Greeks (Delta, Gamma, Vega, Theta), margin utilization, and risk status.*
+
+![QuantDesk Main Screen](docs/images/desk_screen.png)
+
+---
+
+### 3. Live Option Chain Matrix & Pricing Analytics
+*Streaming NSE option chain with live implied volatilities (IV), Greek distributions, and bid/ask liquidity metrics.*
+
+![QuantDesk Option Chain](docs/images/chain_screen.png)
+
+---
+
+### 4. Paper Book & Live Position Management
+*Live position blotter with continuous mark-to-market, automated 50% take-profit / 2.0x stop-loss tracking, dynamic DTE exit alerts, and 1-click `OK NOW EXIT Position` execution.*
+
+![QuantDesk Paper Book](docs/images/book_screen.png)
+
+---
+
+## ⚡ Key Features
+
+- **Live Market Feed & Historical Replay**:
   - Live option chain connectivity for **NIFTY**, **BANKNIFTY**, **FINNIFTY**, and all liquid NSE F&O equities.
   - Sub-second market data polling with automatic fallback to historical replay tapes and synthetic order books outside market hours.
 - **Quantitative Strategy Screener**:
